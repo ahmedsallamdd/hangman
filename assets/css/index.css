@@ -1,0 +1,371 @@
+ul,body{
+    margin: 0;
+    padding: 0;
+}
+#container
+{
+    margin:0px auto;
+    width: 80%;
+    text-align: center;
+}
+
+#navBar{
+    margin-top: 10px;
+}
+#navBAr ul{
+    background-color: #1a237e; 
+    background: #1a237e;
+/*    color: inherit;*/
+    padding: 15px 0px;
+    margin: 20px auto;
+    list-style: none;
+    width: 100%;
+    border-radius: 10px;
+}
+#navBAr ul li{
+    
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 2px 3px;
+    width: 25%;
+    font-size: 15pt;
+    text-align: center;
+}
+.active
+{
+    background-color: cornflowerblue;
+    color:white;
+    border-radius: 3px;
+}
+ul li a{
+    text-decoration: none;
+    color:inherit;
+/*     color:rgb(0, 203, 253); */
+}
+ul{
+    list-style: none;
+}
+ul li:hover{
+cursor: pointer;
+    background-color: cornflowerblue;
+    color:white;
+    border-radius: 3px;
+}
+ul li{
+    padding: 10px;
+    display: inline-block;
+    /* border:1px solid rgb(0, 140, 255); */
+    color:rgb(0, 203, 253);
+    width:200px;
+    text-align: center;
+}
+
+#introPage, #introText, #introText p, #sp, #mp, #sp1, #mp1, #multiPage, #singlePage #wordWrap, #wordWrap div, #restriction, #gamePage{
+    box-sizing: border-box;
+}
+
+#introPage{
+    margin: 50px 0px;
+}
+
+#introPage{
+    display: block;
+    height: 85%;
+    width: 100%;
+}
+
+#introText{
+    width: 850px;
+    height: 260px;
+    margin: 90px auto;
+}
+
+#introText p, #multiText p{
+    font-size: 24pt;
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
+#buttonContainer{
+    width: 700px;
+    height: 75px;
+    margin: 70px auto;
+}
+
+#sp, #mp, #sp1, #mp1{
+    font-size: 35px;
+    width: 250px;
+    height: 75px;
+    float: right;
+    line-height: 75px;
+    text-align: center;
+    color: white;
+    background-color: #00006c;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#sp{
+    float: left;
+}
+
+#sp1{
+    margin: 65px 0 0 0;
+}
+
+#mp1{
+    margin: 50px 20px 0 0;
+}
+
+#singlePage{
+    display: none;
+    height: 80%;
+    width: 100%;
+    margin-top: 150px;
+}
+
+#categoryHolder{
+    width: 100%;
+    height: 335px;
+}    
+#category{
+    width: 700px;
+    height: 335px;
+    margin: 0 auto;
+}    
+#category1, #category2{
+    float: left;
+    width: 700px;
+    height: 150px;
+}
+#category1{
+    margin-bottom: 30px;
+}
+#phrases, #movies, #songs, #challenge{
+    float: left;
+    width: 48%;
+    height: 100%;
+    font-size: 70px;
+    line-height: 150px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#challenge, #movies{
+    float: right;
+}
+#phrases{
+    background: #000081;
+    background: linear-gradient(to right, #000081, white);
+}
+#movies{
+    background: #147b14;
+    background: linear-gradient(to right, white, #147b14);
+}
+#songs{
+    background: #bc7a00;
+    background: linear-gradient(to right, #bc7a00, white);
+}
+#challenge{
+    background: #b10000;
+    background: linear-gradient(to right, white, #b10000);
+}
+
+#multiPage{
+    display:none;
+    width: 100%;
+    height: 85%;
+    margin-top: 50px;
+} 
+   
+#wordInput{
+    width: 845px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+#multiText p{
+    font-size: 24pt;
+}
+#input{
+    font-family: sans-serif;
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 25px;
+}
+#restriction{
+    font-family: sans-serif;
+    float: right;
+    position: relative;
+    right: 0px;
+    bottom: 22px;
+    font-size: 15px;
+}
+#characterCount{
+    width: 865px;
+    height: 50px;
+    margin: 20px auto 0 auto;
+    font-size: 14pt;
+}
+#charContain{
+    margin: 0;
+    float: left;
+}
+#submit{
+    font-size: 35px;
+    width: 200px;
+    height: 35px;
+    float: right;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background-color: #00b100;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#gamePage{
+    display: none;
+    text-align: center;
+}
+
+#categoryName{
+    width: 100%;
+    margin: 20px auto 0px auto;
+    font-size: 48pt;
+} 
+
+#wordWrap{
+    width: 320px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#letterBank{
+    width: 310px;
+    height: 170px;
+    font-size: 30px;
+    line-height: 40px;
+}
+/*
+#letterBank div{
+    width: 41px;
+    height: 40px;
+    margin: 0px 3px 3px 0px;
+}
+*/
+/*
+#letterBank div:active{
+    width: 41px;
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+}
+*/
+
+
+#results{
+    margin-top: 5px;
+    height: 70px;
+    display: none;
+    line-height: 70px;
+}
+#again, #home, #home1{
+    display: none;
+    width: 50%;
+    height: 65px;
+    margin: 0px auto 20px auto;
+    font-size: 35px;
+    line-height: 65px;
+    text-align: center;
+    color: white;
+    background-color: #00006c;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#home{
+    margin-top: 0px;
+}
+
+#results{
+    margin-top: 5px;
+    height: 40px;
+}
+#again, #home, #home1{
+    width: 250px;
+    height: 45px;
+    margin: 10px auto;
+    font-size: 26px;
+    line-height: 45px;
+}
+
+#top
+{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+#middle
+{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+#bottom
+{
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+    background-color:white;
+    display: block;
+    text-align: center;
+}
+.letters
+{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    /* vertical-align: 50%; */
+    display: inline-block;
+    margin: 5px;
+    font-size: 18pt;
+}
+.letter
+{
+    width: 50px;
+    height: 50px;
+    background-color: wheat;
+    text-align: center;
+    /* vertical-align: 50%; */
+    display: inline-block;
+    margin: 5px;
+    border-radius: 3px;
+}
+#keyboard
+{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+/* Footer */
+.footer {
+    padding: 5px;
+    text-align: center;
+    background: #1a237e;
+    color: inherit;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+   .footer h2{
+      color: white;
+  }
